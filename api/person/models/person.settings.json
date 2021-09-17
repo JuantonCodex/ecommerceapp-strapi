@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "name": "Person",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "whatsapp": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}
